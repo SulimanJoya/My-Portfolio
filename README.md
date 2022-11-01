@@ -6,7 +6,7 @@
 > This is my first portfolio project in microverse (mobile-first approach).
   I set up my portfolio repository. My goal here was to set up and customize my portfolio for mobile and desktop versions.
 
-- ![screenshot](/images/)
+- ![screenshot](/images/project-screenshot.JPG)
 
 ## :hammer: Built With
 
