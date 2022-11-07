@@ -284,9 +284,6 @@ main {
 }
 
 .web-lang {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 0;
   gap: 8px;
   width: 203px;
@@ -294,9 +291,8 @@ main {
 }
 
 .HTML {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: left;
+  margin: 8px;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -310,9 +306,8 @@ main {
 }
 
 .CSS {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: left;
+  margin: 8px;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
@@ -326,9 +321,8 @@ main {
 }
 
 .javaScript {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: left;
+  margin: 8px;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
