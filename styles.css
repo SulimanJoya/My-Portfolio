@@ -335,6 +335,10 @@ main {
   color: #6070ff;
 }
 
+.clearFix {
+  clear: both;
+}
+
 .btn {
   width: 295px;
   height: 72px;
