@@ -598,3 +598,88 @@ ul li {
   bottom: -32px;
   background: #dfe1e6;
 }
+
+/* footer start here */
+
+.contact-footer {
+  position: absolute;
+  width: 375px;
+  height: 779px;
+  left: 0;
+  top: 4685px;
+  background: #6070ff;
+  border-top-left-radius: 85px;
+}
+
+.contact-footer img {
+  width: 480px;
+  height: 715px;
+  left: 0;
+}
+
+.footer-heading h1 {
+  position: absolute;
+  width: 801px;
+  height: 56px;
+  left: 66px;
+  top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-para p {
+  position: absolute;
+  width: 327px;
+  height: 102px;
+  left: 24px;
+  top: 170px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+form {
+  position: absolute;
+  top: 330px;
+  left: 24px;
+}
+
+form li {
+  padding: 10px 0;
+  width: 327px;
+}
+
+input,
+textarea {
+  width: 327px;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  height: 46px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 15px 16px;
+}
+
+textarea {
+  height: 172px;
+}
+
+.contact-btn:hover {
+  background-color: rgb(42, 60, 214);
+  color: #fff;
+}
+
+.contact-btn:active {
+  background: rgb(87, 207, 117);
+  color: #fff;
+} 
