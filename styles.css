@@ -40,6 +40,25 @@ a {
   height: 24px;
 }
 
+.nav-wrapper {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-item {
+  padding: 10px 12px;
+}
+
+.nav_link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
 /* || Main || */
 
 .main {
@@ -100,7 +119,7 @@ a {
   padding-top: 1rem;
 }
 
-/* || Cards || */
+/* || Project Cards || */
 
 .projects-page {
   display: grid;
@@ -232,6 +251,7 @@ h3 {
   border-top-right-radius: 95px;
   min-height: 100vh;
   padding-bottom: 200px;
+  width: 100%;
 }
 
 .about-wrapper {
@@ -308,7 +328,7 @@ hr {
   width: 10px;
 }
 
-/* footer start here */
+/* || Footer start here || */
 
 input {
   width: 100%;
@@ -395,4 +415,128 @@ textarea {
 .conact_btn:active {
   background: rgb(87, 207, 117);
   color: #fff;
+}
+
+/* ****=> Desktop Version <=*** */
+
+/* Media Query For Menu icon */
+
+@media (max-width: 769px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+/* Media Query For Header and Main */
+
+@media (min-width: 769px) {
+  .header {
+    padding: 15px 143px;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .headline {
+    background-image: url("images/desktop-background.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-height: 90vh;
+  }
+
+  .main-container {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+/* Media Query For Projects Card */
+
+@media (min-width: 769px) {
+  .projects {
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Media Query For Contact Form */
+
+@media (min-width: 769px) {
+  .contact_button_container {
+    margin-top: 22px;
+    align-self: center;
+  }
+
+  .contact-footer {
+    background-image: url(images/footer-backgrpund.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .contact-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+  }
+}
+
+/* Media Query For About Section */
+
+@media (min-width: 769px) {
+  .about-page {
+    padding: 110px;
+    padding-bottom: 250px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .left {
+    min-width: 50%;
+  }
+
+  .right {
+    min-width: 50%;
+  }
+
+  .logo-wrapper {
+    flex-direction: column;
+    min-height: 120px;
+    width: 122px;
+    gap: 0;
+  }
+
+  .language-list {
+    display: flex;
+    gap: 10px;
+  }
+
+  .main-header {
+    padding-top: 0;
+  }
+
+  .skill-list {
+    margin: 0;
+  }
 }
