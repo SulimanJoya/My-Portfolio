@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* outline: 2px solid #c03636; */
 }
 
 body {
@@ -23,7 +24,6 @@ a {
   align-items: center;
   background: #fff;
   padding: 14px 24px;
-  margin-bottom: 0;
 }
 
 .logo {
@@ -32,15 +32,12 @@ a {
   color: #6070ff;
 }
 
-.menu-bar {
-  border: none;
-  background-color: #fff;
-  cursor: pointer;
+.menu-icon {
   width: 24px;
   height: 24px;
 }
 
-.nav-wrapper {
+.nav-container {
   list-style: none;
   padding: 0;
   display: flex;
@@ -52,7 +49,7 @@ a {
   padding: 10px 12px;
 }
 
-.nav_link {
+.nav-link {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -66,13 +63,13 @@ a {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  background: url(images/mobile@2x.svg);
+  background: url(images/Mobile/header-shapes.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 95px;
   background-position: bottom right;
   background-color: #fff;
-  margin-top: -2px;
+  margin-top: -1px;
   margin-bottom: 100px;
 }
 
@@ -175,7 +172,6 @@ h3 {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-  list-style: disc;
 }
 
 .dots {
@@ -389,6 +385,15 @@ textarea {
   width: 95%;
 }
 
+.input-form input,
+textarea {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
 .contact_button_container {
   margin-top: 22px;
   align-self: flex-start;
@@ -407,12 +412,13 @@ textarea {
 }
 
 .conact_btn:hover {
-  background-color: rgb(42, 60, 214);
+  background-color: #6070ff;
+  border: 1px solid #fff;
   color: #fff;
 }
 
 .conact_btn:active {
-  background: rgb(87, 207, 117);
+  background: #57cf75;
   color: #fff;
 }
 
@@ -433,12 +439,12 @@ textarea {
     padding: 15px 143px;
   }
 
-  .menu-bar {
+  .menu-icon {
     display: none;
   }
 
-  .headline {
-    background-image: url("images/desktop-background.png");
+  .main {
+    background-image: url("images/Desktop/desktop-background.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -458,6 +464,7 @@ textarea {
 
 @media (min-width: 769px) {
   .projects {
+    display: flex;
     flex-direction: row;
     gap: 100px;
     justify-content: space-between;
@@ -469,6 +476,14 @@ textarea {
 
   .reverse {
     flex-direction: row-reverse;
+  }
+
+  .project-image {
+    width: 50%;
+  }
+
+  .project-info {
+    width: 50%;
   }
 }
 

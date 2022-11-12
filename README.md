@@ -6,8 +6,8 @@
 > This is my first project at Microverse (mobile-first approach).
  My goal was to set up and customize my portfolio for mobile and desktop versions.
 
-![screenshot](/images/Desktop-viewe.JPG)
-![screenshot](/images/Mobile-viewe.JPG)
+![screenshot](/images/screenshots/Desktop-viewe.JPG)
+![screenshot](/images/screenshots/Mobile-viewe.JPG)
 
 
 ## :hammer: Built With
