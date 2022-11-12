@@ -6,7 +6,7 @@
 > My goal was to set up and customize my portfolio for mobile and desktop versions.
 
 ![screenshot](/images/screenshots/Desktop-viewe.JPG)
-![screenshot](/images/screenshots/Mobile-viewe.JPG) ![screenshot](/images/screenshots/Mobile-viewe-2.JPG)
+![screenshot](/images/screenshots/Mobile-viewe.JPG) ![screenshot](/images/screenshots/Mobile-viewe-about.JPG)
 
 ## :hammer: Built With
 
