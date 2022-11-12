@@ -63,7 +63,7 @@ a {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  background: url(images/Mobile/header-shapes.png);
+  background: url("images/Mobile/mobile-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 95px;
@@ -351,7 +351,7 @@ textarea {
 }
 
 .contact-wrapper {
-  background-image: url(images/contact-form-shapes-mobile.svg);
+  background-image: url("images/Mobile/mobile-contact-background.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -496,7 +496,7 @@ textarea {
   }
 
   .contact-footer {
-    background-image: url(images/footer-backgrpund.png);
+    background-image: url("images/Desktop/footer-backgrpund.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
