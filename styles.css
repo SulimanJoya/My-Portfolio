@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   /* outline: 2px solid #c03636; */
 }
 
@@ -387,7 +388,6 @@ textarea {
 
 .input-form input,
 textarea {
-  font-family: "Poppins";
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
