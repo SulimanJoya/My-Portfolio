@@ -117,6 +117,26 @@ a {
   padding-top: 1rem;
 }
 
+.header-container {
+  transform: translateX(-120%);
+  animation: project-image-animation 1.5s ease-in-out forwards;
+}
+@keyframes project-image-animation {
+  100% {
+    transform: translate(0);
+  }
+}
+
+.bottom-container {
+  transform: translateX(120%);
+  animation: project-info-animation 1.5s ease-in-out forwards;
+}
+@keyframes project-info-animation {
+  100% {
+    transform: translate(0);
+  }
+}
+
 /* || Project Cards || */
 
 .projects-page {
@@ -457,6 +477,25 @@ textarea {
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 150px;
+  }
+  .header-container {
+    transform: translateX(-80%);
+    animation: project-image-animation 1.5s ease-in-out forwards;
+  }
+  @keyframes project-image-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  .bottom-container {
+    transform: translateX(55%);
+    animation: project-info-animation 1.5s ease-in-out forwards;
+  }
+  @keyframes project-info-animation {
+    100% {
+      transform: translate(0);
+    }
   }
 }
 
