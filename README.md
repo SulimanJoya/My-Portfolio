@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -69,8 +71,9 @@
 - **[key_feature_1]**
 - **[key_feature_2]**
 - **[key_feature_3]**
+--> 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- LIVE DEMO -->
 
