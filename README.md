@@ -37,8 +37,8 @@
 
 <!-- ### Tech Stack <a name="tech-stack"></a> -->
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
+<!--
 <details>
   <summary>Client</summary>
   <ul>
@@ -59,7 +59,7 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
-
+ -->
 <!-- Features -->
 
 <!-- ### Key Features <a name="key-features"></a>
@@ -70,7 +70,7 @@
 - **[key_feature_2]**
 - **[key_feature_3]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> 
 
 <!-- LIVE DEMO -->
 
@@ -152,7 +152,7 @@ Example:
 ```
  -->
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- AUTHORS -->
 
