@@ -381,12 +381,14 @@
           with it
         </p>
         <form
+          id="formContainer"
           class="form-container"
           method="post"
           action="https://formspree.io/f/xaykaqzz"
         >
           <div class="input-form">
             <input
+              id="fullName"
               type="text"
               name="Full-Name"
               placeholder="Full Name"
@@ -395,16 +397,24 @@
             />
           </div>
           <div class="input-form">
-            <input type="email" name="Email" placeholder="Email" required />
+            <input
+              id="email"
+              type="email"
+              name="Email"
+              placeholder="Email"
+              required
+            />
           </div>
           <div class="input-form">
             <textarea
+              id="comment"
               name="Message"
               placeholder="Write your message here"
               maxlength="500"
               required
             ></textarea>
           </div>
+          <div id="error-msg"></div>
           <div class="contact_button_container">
             <button class="conact_btn" type="submit">Get In Touch</button>
           </div>
@@ -511,5 +521,6 @@
     </div>
     <script src="./JS/mobileMenu.js"></script>
     <script src="./JS/Popup.js"></script>
+    <script src="./JS/formValidation.js"></script>
   </body>
 </html>
