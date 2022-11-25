@@ -559,6 +559,11 @@ textarea {
   color: #fff;
 }
 
+#error-msg {
+  color: #a50000;
+  font-weight: bold;
+}
+
 /* #################### Desktop Version #################### */
 
 /* Media Query For Menu icon */
