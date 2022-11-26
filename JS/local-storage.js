@@ -19,7 +19,6 @@ function persistData() {
     fName.setAttribute('value', fetchData.fullName);
     Message.textContent = fetchData.comments;
     Email.setAttribute('value', fetchData.emailAddress);
-    
   }
 }
 
