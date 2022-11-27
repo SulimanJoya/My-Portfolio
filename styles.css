@@ -308,7 +308,8 @@ h3 {
 
 .modal-btn {
   align-items: center;
-  padding: 15px;
+  padding: 15px 0;
+  padding-right: 15px;
 }
 
 .modalBtn {
@@ -356,13 +357,12 @@ h3 {
 .btn {
   border: 1px solid #6070ff;
   border-radius: 8px;
-  height: 48px;
   outline: none;
   background-color: white;
   color: #396df2;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 20px;
   cursor: pointer;
   padding: 18px;
 }
@@ -622,6 +622,10 @@ textarea {
   .btn {
     padding: 24px;
   }
+
+  .web-lang {
+    margin-top: 20px;
+  }
 }
 
 /* Media Query For Header and Main */
@@ -659,13 +663,12 @@ textarea {
   .modal-content {
     flex-direction: row;
     align-items: flex-start;
-    gap: 50px;
-    justify-content: space-between;
+    gap: 20px;
   }
 
   .modal-description {
     margin-bottom: 50px;
-    width: 580px;
+    width: 68%;
   }
 
   .modal-img {

@@ -1,11 +1,11 @@
-const body = document.getElementById('body');
-const projectCards = document.getElementById('My-Portfolio');
-const modal = document.getElementById('modal');
-const Mtitle = document.getElementById('modal-title');
-const image = document.getElementById('modal-im');
-const longDes = document.getElementById('des');
-const live = document.getElementById('live');
-const source = document.getElementById('source');
+const body = document.querySelector('#body');
+const projectCards = document.querySelector('#My-Portfolio');
+const modal = document.querySelector('#modal');
+const Mtitle = document.querySelector('#modal-title');
+const image = document.querySelector('#modal-im');
+const longDes = document.querySelector('#des');
+const live = document.querySelector('#live');
+const source = document.querySelector('#source');
 const cards = [
   {
     title: 'Tonic',
